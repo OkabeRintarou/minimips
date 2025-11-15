@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Build output
+build/
+dist/
+target/
+
+# Simulation output files
+*.vcd
+
+# Compiled simulation files
+*.out
+
+# Makefile build artifacts
+tb_*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
